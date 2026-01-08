@@ -1,1 +1,2 @@
-export const API_BASE_URL = 'https://fixed-elene-jaspery.ngrok-free.dev';
+export const API_BASE_URL = 'https://backend-bua2sebe.b4a.run';
+
