@@ -47,23 +47,7 @@ function AdminDashboard({ auth }) {
       {/* Main Content */}
       <main className="admin-main-content">
         {/* Top Bar */}
-        <header className="top-bar">
-          <div className="search-bar">
-            <span>🔍</span>
-            <input type="text" placeholder="Search..." />
-          </div>
-          <div className="user-profile">
-            <button className="notification-btn">🔔</button>
-            <div className="profile-info">
-              <img src="https://ui-avatars.com/api/?name=Admin+User&background=0D8ABC&color=fff" alt="Admin" className="avatar" />
-              <div className="profile-text">
-                <span className="profile-name">Admin User</span>
-                <span className="profile-role">Administrator</span>
-              </div>
-              <span>⌄</span>
-            </div>
-          </div>
-        </header>
+       
 
         {/* Tab Content */}
         <div className="tab-content-container">
@@ -196,3 +180,4 @@ function OverviewTab({ auth }) {
 }
 
 export default AdminDashboard
+
